@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block content %}
+    <p>
+        <h2>Django</h2>
+        <img src="{% static "django.png" %}" alt="Django" />
+        <hr />
+        This is a genereal static file.
+    </p>
+    <p>
+        <h2>Python</h2>
+        <img src="{{ MEDIA_URL }}python.png" alt="Python" />
+        <hr />
+        This is a media file.
+    </p>
+    <p>
+        <h2>Python Nordeste</h2>
+        <img src="{% static "myapp/pyne.png" %}" alt="PyNE" />
+        <hr />
+        This is an app's static file.
+    </p>
+{% endblock %}

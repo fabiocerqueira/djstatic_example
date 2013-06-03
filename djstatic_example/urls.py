@@ -10,6 +10,7 @@ urlpatterns = patterns('',
     # Examples:
     # url(r'^$', 'djstatic_example.views.home', name='home'),
     # url(r'^djstatic_example/', include('djstatic_example.foo.urls')),
+    url(r'', include('djstatic_example.myapp.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
