@@ -1,0 +1,8 @@
+*.sw[a-z]
+*.pyc
+*.DS_Store
+*.mo
+*.sqlite3
+djstatic_example/static
+# Removed MEDIA_ROOT of gitignore, because this is an example
+# djstatic_example/media
